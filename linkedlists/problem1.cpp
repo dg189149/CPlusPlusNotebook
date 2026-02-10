@@ -6,7 +6,7 @@ The program must add q to each of the previously entered integers and print the 
 
 void addingIntegers(long* addressofResult) {
     *addressofResult = 0
-    while (long q != -9) {
+    while (!(long q  == -9)) {
         std::cin>>q;
         *addressofResult += q;
         std::cout<<"Updated result of sum: " << *addressofResult << "\n";
