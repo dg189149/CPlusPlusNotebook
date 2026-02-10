@@ -8,8 +8,8 @@ void addingIntegers(long* addressofResult) {
     *addressofResult = 0
     while (long q != -9) {
         std::cin>>q;
-        *addressofResult += q
-        std::cout<<"Updated result of sum: " << *addressofResult << "\n" 
+        *addressofResult += q;
+        std::cout<<"Updated result of sum: " << *addressofResult << "\n";
         std::cin>>q;
     }
     
