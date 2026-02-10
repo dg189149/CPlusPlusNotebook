@@ -1,7 +1,7 @@
 #include <iostream>
 
 void addYtoX(long y, long* addressOfX) {
-    *addressOfX += y 
+    *addressOfX += y; 
 }
 
 int main() {
