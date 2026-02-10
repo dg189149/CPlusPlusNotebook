@@ -5,7 +5,7 @@ The program must add q to each of the previously entered integers and print the 
 #include <iostream>
 
 void addingIntegers(long* addressofResult) {
-    *addressofResult = 0
+    *addressofResult = 0;
     while (!(long q  == -9)) {
         std::cin>>q;
         *addressofResult += q;
