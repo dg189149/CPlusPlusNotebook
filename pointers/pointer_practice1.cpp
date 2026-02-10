@@ -1,7 +1,11 @@
 #include <iostream>
 
 void addYtoX(long y, long* addressOfX) {
+<<<<<<< Updated upstream
     *addressOfX += y; 
+=======
+    *addressOfX += y;
+>>>>>>> Stashed changes
 }
 
 int main() {
